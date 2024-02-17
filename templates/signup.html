@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MRS Sign Up</title>
+
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-repeat: repeat;
+            overflow: hidden;
+        }
+
+        body::before {
+              content: "";
+              background-image: url('https://i.imgur.com/r16aEw5.jpg');
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              bottom: 0px;
+              left: 0px;
+              opacity: 0.5;
+        }
+
+        .scrolling-container1 {
+          white-space: nowrap; /* Prevent images from wrapping to the next line */
+          animation: scrollImagesLeft 1000s linear infinite; /* Adjust the duration and timing function as needed */
+        }
+
+        .scrolling-container1 img {
+          width: 10em; /* Adjust the width of the images as needed */
+          margin-right: 0.2em; /* Adjust the spacing between images as needed */
+        }
+
+        .scrolling-container2 {
+          white-space: nowrap; /* Prevent images from wrapping to the next line */
+          animation: scrollImagesRight 1000s linear infinite; /* Adjust the duration and timing function as needed */
+        }
+
+        .scrolling-container2 img {
+          width: 10em; /* Adjust the width of the images as needed */
+          margin-right: 0.2em; /* Adjust the spacing between images as needed */
+        }
+
+        @keyframes scrollImagesLeft {
+          0% {
+            transform: translateX(0%); /* Start position off-screen to the right */
+          }
+          100% {
+            transform: translateX(-1000%); /* End position off-screen to the left */
+          }
+        }
+
+        @keyframes scrollImagesRight {
+          0% {
+            transform: translateX(-150%); /* Start position off-screen to the left */
+          }
+          100% {
+            transform: translateX(1000%); /* End position off-screen to the right */
+          }
+        }
+
+        .mainText {
+          color: #00ff6e;
+          text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+          margin: 10px;
+          font-size: 5em;
+          font-family: sans-serif;
+        }
+
+        .subText {
+          color: #00ff6e;
+          text-decoration: none;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          font-size: 1.7em;
+          font-family: sans-serif;
+        }
+
+        .top, .bottom, .center {
+          text-align: center; /* Center content horizontally */
+          position: fixed;
+          width: 100%;
+        }
+
+        .top {
+          top: 0px;
+          padding: 10px
+        }
+
+        .bottom {
+          bottom: 0px;
+          padding: 5px;
+        }
+
+        .center {
+           top: 33%;
+        }
+
+        input[type=text] {
+          background-color: #00ff6e;
+          color: black;
+          margin: 5px;
+          font-size: 1.5em;
+        }
+
+        input[type=password] {
+          background-color: #00ff6e;
+          color: black;
+          margin: 5px;
+          font-size: 1.5em;
+        }
+
+        input[type=submit] {
+          background-color: #00ff6e;
+          color: black;
+          margin: 5px;
+          font-size: 1.2em;
+          padding: 0.5em;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="top">
+    <div class="scrolling-container1">
+        {%for movie in scroll_movies_left%}
+            <img src={{movie['Thumbnail'][0]}}>
+        {%endfor%}
+    </div>
+    </div>
+
+    <div class="center">
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <a href="/" class="subText">Home</a>
+                </td>
+                <td>
+                    <p style="margin-left: 40px"></p>
+                </td>
+                <td>
+                    <a href="/" class="subText">Log in</a>
+                </td>
+            </tr>
+        </table>
+        <p class="mainText">
+            Sign Up
+        </p>
+        <form method="post" action="/signup" enctype="multipart/form-data">
+            <input type ="text" value="" placeholder="Username" name="username" />
+            <br/>
+            <input type="password" value="" placeholder="Password" name="password" />
+            <br/>
+            <input type="submit" value="Login" name="submit_button" />
+        </form>
+    </center>
+    </div>
+
+    <div class="bottom">
+    <div class="scrolling-container2">
+        {%for movie in scroll_movies_right%}
+            <img src={{movie['Thumbnail'][0]}}>
+        {%endfor%}
+    </div>
+    </div>
+</body>
+</html>

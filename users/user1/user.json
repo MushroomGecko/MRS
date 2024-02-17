@@ -1,0 +1,565 @@
+[
+    {
+        "username": "user1",
+        "password": "cbd7b30655e63dc2b4ed9eaf438e62145b1b780ff1debace3fc6d40473c4abb990edb78bc5a2aeb3edd9c84d17ff3f6b59df1bb892dc5a36637b59d9d3ab6c18",
+        "liked_movies": [
+            {
+                "Title": [
+                    "Batman Returns"
+                ],
+                "Description": [
+                    "The monstrous Penguin (Danny DeVito), who lives in the sewers beneath Gotham, joins up with wicked shock-headed businessman Max Shreck (Christopher Walken) to topple the Batman (Michael Keaton) once and for all. But when Shreck's timid assistant, Selina Kyle (Michelle Pfeiffer), finds out, and Shreck tries to kill her, she is transformed into the sexy Catwoman. She teams up with the Penguin and Shreck to destroy Batman, but sparks fly unexpectedly when she confronts the caped crusader."
+                ],
+                "Rating": [],
+                "Genre": [
+                    "Action",
+                    "Adventure",
+                    "Fantasy"
+                ],
+                "Original Language": [
+                    "English"
+                ],
+                "Director": [
+                    "Tim Burton"
+                ],
+                "Producer": [
+                    "Denise Di Novi",
+                    "Tim Burton"
+                ],
+                "Writer": [
+                    "Bob Kane",
+                    "Sam Hamm",
+                    "Daniel Waters"
+                ],
+                "Release Date (Theaters)": [
+                    "Jun 19, 1992 original"
+                ],
+                "Release Date (Streaming)": [
+                    "Jan 31, 2013"
+                ],
+                "Box Office (Gross USA)": [
+                    "$160.3M"
+                ],
+                "Runtime": [
+                    "2h 6m"
+                ],
+                "Distributor": [
+                    "Warner Bros."
+                ],
+                "Production Co": [
+                    "Warner Brothers"
+                ],
+                "Sound Mix": [
+                    "Surround"
+                ],
+                "View the collection": [
+                    "Batman"
+                ],
+                "Cast": [
+                    "Michael Keaton",
+                    "Danny DeVito",
+                    "Michelle Pfeiffer",
+                    "Christopher Walken",
+                    "Michael Gough",
+                    "Michael Murphy",
+                    "Cristi Conaway",
+                    "Andrew Bryniarski",
+                    "Pat Hingle",
+                    "Vincent Schiavelli",
+                    "Steve Witting",
+                    "Jan Hooks",
+                    "Tim Burton",
+                    "Bob Kane",
+                    "Sam Hamm",
+                    "Daniel Waters",
+                    "Peter Guber",
+                    "Benjamin Melniker",
+                    "Jon Peters",
+                    "Michael E. Uslan",
+                    "Denise Di Novi",
+                    "Tim Burton",
+                    "Danny Elfman",
+                    "Steven Severin",
+                    "Siouxsie Sioux",
+                    "Stefan Czapsky",
+                    "Bob Badami",
+                    "Chris Lebenzon",
+                    "Marion Dougherty",
+                    "Bo Welch",
+                    "Rick Heinrichs",
+                    "Cheryl Carasik"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/ol54RadbOvkIbEEF3hx6xVDMhaM=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/NowShowing/2369/2369_as.jpg"
+                ]
+            },
+            {
+                "Title": [
+                    "Batman"
+                ],
+                "Description": [
+                    "Having witnessed his parents' brutal murder as a child, millionaire philanthropist Bruce Wayne (Michael Keaton) fights crime in Gotham City disguised as Batman, a costumed hero who strikes fear into the hearts of villains. But when a deformed madman who calls himself \"The Joker\" (Jack Nicholson) seizes control of Gotham's criminal underworld, Batman must face his most ruthless nemesis ever while protecting both his identity and his love interest, reporter Vicki Vale (Kim Basinger)."
+                ],
+                "Rating": [],
+                "Genre": [
+                    "Action",
+                    "Adventure",
+                    "Fantasy"
+                ],
+                "Original Language": [
+                    "English"
+                ],
+                "Director": [
+                    "Tim Burton"
+                ],
+                "Producer": [
+                    "Jon Peters",
+                    "Peter Guber"
+                ],
+                "Writer": [
+                    "Sam Hamm",
+                    "Warren Skaaren"
+                ],
+                "Release Date (Theaters)": [
+                    "Jun 23, 1989 wide"
+                ],
+                "Release Date (Streaming)": [
+                    "Jul 24, 2014"
+                ],
+                "Box Office (Gross USA)": [
+                    "$250.7M"
+                ],
+                "Runtime": [
+                    "2h 6m"
+                ],
+                "Distributor": [
+                    "Warner Bros. Pictures"
+                ],
+                "Production Co": [
+                    "Warner Brothers",
+                    "Guber-Peters Company",
+                    "PolyGram Filmed Entertainment"
+                ],
+                "Sound Mix": [
+                    "Surround",
+                    "Stereo"
+                ],
+                "View the collection": [
+                    "Batman"
+                ],
+                "Cast": [
+                    "Jack Nicholson",
+                    "Michael Keaton",
+                    "Kim Basinger",
+                    "Robert Wuhl",
+                    "Pat Hingle",
+                    "Billy Dee Williams",
+                    "Michael Gough",
+                    "Jack Palance",
+                    "Jerry Hall",
+                    "Lee Wallace",
+                    "Tracey Walter",
+                    "Tim Burton",
+                    "Sam Hamm",
+                    "Warren Skaaren",
+                    "Jon Peters",
+                    "Peter Guber",
+                    "Benjamin Melniker",
+                    "Michael E. Uslan",
+                    "Roger Pratt",
+                    "Ray Lovejoy",
+                    "Danny Elfman",
+                    "Anton Furst",
+                    "Terry Ackland-Snow",
+                    "Nigel Phelps",
+                    "Marion Dougherty",
+                    "Peter Young",
+                    "Derek Cracknell"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/83O3cGOnyEdGBFWUwXz16zxR9lU=/206x305/v2/https://resizing.flixster.com/z-nAkB6sfhbFDtN9mY8ZpJbCpRI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2NmZTNlMzU3LTE5YzgtNDU3Ni1hMzg1LWMxMjk2NDQ3NTA4Yi5qcGc="
+                ]
+            },
+            {
+                "Title": [
+                    "Batman: The Doom That Came to Gotham"
+                ],
+                "Description": [
+                    "Inspired by the comic book series by Mike Mignola, Richard Pace and Troy Nixey, Batman: The Doom That Came to Gotham is a 1920s-based tale that finds explorer Bruce Wayne accidentally unleashing an ancient evil, expediting his return to Gotham City after a two-decade hiatus. The logic/science-driven Batman must battle Lovecraftian supernatural forces threatening the sheer existence of Gotham, along the way being aided and confronted by reimagined versions of his well-known allies and enemies, including Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face, James Gordon and Bruce's beloved wards. Prepare for a mystical, often terrifying Batman adventure unlike any other."
+                ],
+                "Rating": [],
+                "Genre": [
+                    "Action",
+                    "Adventure",
+                    "Fantasy",
+                    "Animation"
+                ],
+                "Original Language": [
+                    "English"
+                ],
+                "Director": [
+                    "Sam Liu"
+                ],
+                "Producer": [
+                    "James Krieg",
+                    "Sam Liu",
+                    "Kimberly S. Moreau"
+                ],
+                "Writer": [
+                    "Jase Ricci"
+                ],
+                "Release Date (Streaming)": [
+                    "Mar 28, 2023"
+                ],
+                "Runtime": [
+                    "1h 26m"
+                ],
+                "Distributor": [
+                    "Warner Bros. Home Entertainment"
+                ],
+                "Production Co": [
+                    "Warner Bros. Animation"
+                ],
+                "Cast": [
+                    "David Giuntoli",
+                    "Tati Gabrielle",
+                    "Gideon Adlon",
+                    "Christopher Gorham",
+                    "Jason Marsden",
+                    "David Dastmalchian",
+                    "Patrick Fabian",
+                    "Jeffrey Combs",
+                    "Karan Brar",
+                    "Sam Liu",
+                    "Jase Ricci",
+                    "James Krieg",
+                    "Sam Liu",
+                    "Kimberly S. Moreau",
+                    "Sam Register",
+                    "Michael E. Uslan",
+                    "Stefan L. Smith"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/rkX04f1riZXy9DKbZ8xXsEEgBIA=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23892791_v_v13_aa.jpg"
+                ]
+            },
+            {
+                "Title": [
+                    "Batman and Superman: Battle of the Super Sons"
+                ],
+                "Description": [
+                    "On his birthday, Jonathan Kent learns his dad is Superman and that he has superpowers of his own. He also meets Damian Wayne. The two boys are forced to team up to protect their loved ones from a hostile alien force."
+                ],
+                "Genre": [
+                    "Action",
+                    "Adventure",
+                    "Animation"
+                ],
+                "Director": [
+                    "Matt Peters"
+                ],
+                "Producer": [
+                    "James Krieg"
+                ],
+                "Writer": [
+                    "Jeremy Adams"
+                ],
+                "Release Date (Streaming)": [
+                    "Oct 18, 2022"
+                ],
+                "Runtime": [
+                    "1h 20m"
+                ],
+                "Production Co": [
+                    "Warner Bros. Animation"
+                ],
+                "Cast": [
+                    "Jack Dylan Grazer",
+                    "Jack Griffo",
+                    "Troy Baker",
+                    "Travis Willingham",
+                    "Laura Bailey",
+                    "Darin De Paul",
+                    "Tom Kenny",
+                    "Nolan North",
+                    "Zeno Robinson",
+                    "Matt Peters",
+                    "Jeremy Adams",
+                    "James Krieg",
+                    "Sam Register",
+                    "Michael E. Uslan",
+                    "Kristopher Carter",
+                    "Michael McCuistion",
+                    "Lolita Ritmanis",
+                    "Wes Gleason"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/uYR1yuchbAbErKj_n34aP-eOZFw=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22548638_p_v13_aa.jpg"
+                ]
+            },
+            {
+                "Title": [
+                    "Batman: The Long Halloween Deluxe Edition"
+                ],
+                "Description": [
+                    "Atrocious serial killings on holidays in Gotham City send The Dark Knight into action, confronting both organized crime and a unified front of supervillains while attempting to stop the mysterious murderer."
+                ],
+                "Rating": [],
+                "Genre": [
+                    "Holiday",
+                    "Action",
+                    "Adventure",
+                    "Animation"
+                ],
+                "Original Language": [
+                    "English"
+                ],
+                "Runtime": [
+                    "2h 48m"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/fkRPNc_x3K7iWIOwC70XkFqViGQ=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22563551_v_v13_aa.jpg"
+                ]
+            }
+        ],
+        "disliked_movies": [
+            {
+                "Title": [
+                    "Saw"
+                ],
+                "Description": [
+                    "Photographer Adam Stanheight (Leigh Whannell) and oncologist Lawrence Gordon (Cary Elwes) regain consciousness while chained to pipes at either end of a filthy bathroom. As the two men realize they've been trapped by a sadistic serial killer nicknamed \"Jigsaw\" and must complete his perverse puzzle to live, flashbacks relate the fates of his previous victims. Meanwhile, Dr. Gordon's wife (Monica Potter) and young daughter (Makenzie Vega) are forced to watch his torture via closed-circuit video."
+                ],
+                "Rating": [],
+                "Genre": [
+                    "Horror",
+                    "Mystery & thriller"
+                ],
+                "Original Language": [
+                    "English"
+                ],
+                "Director": [
+                    "James Wan"
+                ],
+                "Producer": [
+                    "Mark Burg",
+                    "Oren Koules",
+                    "Gregg Hoffman"
+                ],
+                "Writer": [
+                    "Leigh Whannell",
+                    "James Wan"
+                ],
+                "Release Date (Theaters)": [
+                    "Oct 29, 2004 wide"
+                ],
+                "Rerelease Date (Theaters)": [
+                    "Oct 31, 2014"
+                ],
+                "Release Date (Streaming)": [
+                    "Oct 28, 2014"
+                ],
+                "Box Office (Gross USA)": [
+                    "$650.1K"
+                ],
+                "Runtime": [
+                    "1h 43m"
+                ],
+                "Distributor": [
+                    "Lionsgate Films"
+                ],
+                "Production Co": [
+                    "Evolution Entertainment"
+                ],
+                "Sound Mix": [
+                    "Dolby",
+                    "DTS",
+                    "Dolby Atmos",
+                    "Dolby SRD",
+                    "Surround"
+                ],
+                "Aspect Ratio": [
+                    "Flat (1.85:1)"
+                ],
+                "View the collection": [
+                    "Saw"
+                ],
+                "Cast": [
+                    "Cary Elwes",
+                    "Danny Glover",
+                    "Monica Potter",
+                    "Michael Emerson",
+                    "Tobin Bell",
+                    "Ken Leung",
+                    "Makenzie Vega",
+                    "Shawnee Smith",
+                    "Benito Martinez",
+                    "Dina Meyer",
+                    "Leigh Whannell",
+                    "Mike Butters",
+                    "Paul Gutrecht",
+                    "Ned Bellamy",
+                    "James Wan",
+                    "Leigh Whannell",
+                    "Mark Burg",
+                    "Lark Bernini",
+                    "Oren Koules",
+                    "James Wan",
+                    "Gregg Hoffman",
+                    "Jason Constantine",
+                    "David A. Armstrong",
+                    "Julie Berghoff",
+                    "Kevin Greutert",
+                    "Charlie Clouser",
+                    "Jennifer L. Soulages",
+                    "Amy Lippens"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/5nZy2IVtoZliowtVzNVnANX-o-M=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34813_p_v8_aw.jpg"
+                ]
+            },
+            {
+                "Title": [
+                    "Saw X"
+                ],
+                "Description": [
+                    "John Kramer (Tobin Bell) is back. The most chilling installment of the SAW franchise yet explores the untold chapter of Jigsaw's most personal game. Set between the events of SAW I and II, a sick and desperate John travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer -- only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, John returns to his work, turning the tables on the con artists in his signature visceral way through a series of ingenious and terrifying traps."
+                ],
+                "Rating": [],
+                "Genre": [
+                    "Horror",
+                    "Mystery & thriller"
+                ],
+                "Original Language": [
+                    "English"
+                ],
+                "Director": [
+                    "Kevin Greutert"
+                ],
+                "Producer": [
+                    "Mark Burg",
+                    "Oren Koules"
+                ],
+                "Writer": [
+                    "Pete Goldfinger",
+                    "Josh Stolberg"
+                ],
+                "Release Date (Theaters)": [
+                    "Sep 29, 2023 wide"
+                ],
+                "Box Office (Gross USA)": [
+                    "$41.4M"
+                ],
+                "Runtime": [
+                    "1h 58m"
+                ],
+                "Distributor": [
+                    "Lionsgate"
+                ],
+                "Production Co": [
+                    "Twisted Pictures"
+                ],
+                "Aspect Ratio": [
+                    "Flat (1.85:1)"
+                ],
+                "View the collection": [
+                    "Saw"
+                ],
+                "Cast": [
+                    "Tobin Bell",
+                    "Shawnee Smith",
+                    "Synnove Macody Lund",
+                    "Steven Brand",
+                    "Renata Vaca",
+                    "Michael Beach",
+                    "Paulette Hernandez",
+                    "Octavio Hinojosa",
+                    "Joshua Okamoto",
+                    "Kevin Greutert",
+                    "Pete Goldfinger",
+                    "Josh Stolberg",
+                    "Mark Burg",
+                    "Oren Koules",
+                    "James Wan",
+                    "Nick Matthews",
+                    "Kevin Greutert"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/RNmiNqAzhPTZvIa2TsVwshGIxMM=/206x305/v2/https://resizing.flixster.com/9gNjWytmWz1aNNJS2bxHv0r6dDQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzA4MmFmMGE4LWVkNzItNDY3YS05YTU5LWI0OGQ3OWNiNWI1OS5qcGc="
+                ]
+            },
+            {
+                "Title": [
+                    "Friday the 13th, Part VI: Jason Lives"
+                ],
+                "Description": [
+                    "Years ago, Tommy Jarvis (Thom Mathews) killed infamous hockey-masked murderer Jason Voorhees (C.J. Graham), and the intensity of the experience has landed him in a mental institution. To end his torment and achieve a level of closure, Tommy escapes from the hospital and heads to the graveyard where Jason is buried, intending to dig up the body and cremate it. But, before this total annihilation can occur, a freak electrical accident resurrects Jason from the dead, and the terror begins anew."
+                ],
+                "Rating": [],
+                "Genre": [
+                    "Horror"
+                ],
+                "Original Language": [
+                    "English"
+                ],
+                "Director": [
+                    "Tom McLoughlin"
+                ],
+                "Producer": [
+                    "Don Behrns"
+                ],
+                "Writer": [
+                    "Tom McLoughlin",
+                    "Victor Miller"
+                ],
+                "Release Date (Theaters)": [
+                    "Aug 1, 1986 wide"
+                ],
+                "Release Date (Streaming)": [
+                    "Jun 6, 2014"
+                ],
+                "Box Office (Gross USA)": [
+                    "$19.0M"
+                ],
+                "Runtime": [
+                    "1h 26m"
+                ],
+                "Distributor": [
+                    "Paramount Pictures"
+                ],
+                "Production Co": [
+                    "Paramount Pictures",
+                    "Terror Inc."
+                ],
+                "Sound Mix": [
+                    "Ultra-Stereo",
+                    "Surround"
+                ],
+                "View the collection": [
+                    "Friday the 13th"
+                ],
+                "Cast": [
+                    "Thom Mathews",
+                    "Jennifer Cooke",
+                    "Ron Palillo",
+                    "David Kagen",
+                    "Renee Jones",
+                    "Kerry Noonan",
+                    "C.J. Graham",
+                    "Darcy DeMoss",
+                    "Tom McLoughlin",
+                    "Tom McLoughlin",
+                    "Victor Miller",
+                    "Don Behrns",
+                    "Alice Cooper",
+                    "Harry Manfredini",
+                    "Jon Kranhouse",
+                    "Bruce Green"
+                ],
+                "Thumbnail": [
+                    "https://resizing.flixster.com/xnIXl4NDTQYhbBOPCgDeJQejb-g=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9435_p_v8_ab.jpg"
+                ]
+            }
+        ]
+    }
+]

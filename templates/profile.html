@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRS Profile - {{username}}</title>
+
+    <style>
+
+        body {
+          position: relative;
+          overflow-x: hidden;
+        }
+
+        .bg {
+          background-image: url('https://i.imgur.com/r16aEw5.jpg');
+          background-attachment: fixed;
+          position: absolute;
+          top: -1.2em;
+          right: -1.2em;
+          bottom: -1.2em;
+          left: -1.2em;
+          opacity: 0.5;
+          z-index: -1;
+          background-repeat: repeat;
+          height: 100vh;
+          margin: 0;
+          padding: 0;
+        }
+
+        .title-center
+        {
+            text-align: center;
+            word-wrap: break-word;
+            width: 206px;
+            color: white;
+            text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+            font-family: sans-serif;
+        }
+
+        .hover-reveal
+        {
+            text-align: center;
+        }
+
+        .movie-wrap
+        {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .img-desc
+        {
+            margin-top: 0%;
+            position: absolute;
+            word-wrap: break-word;
+            width: 206px;
+            height: 305px;
+            background: rgba(29, 106, 154, 0.75);
+            color: #fff;
+            visibility: hidden;
+            opacity: 0;
+            resize: none;
+
+            /* transition effect. not necessary */
+            transition: opacity .2s, visibility .2s;
+        }
+
+        .hover-reveal:hover .img-desc
+        {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .subText
+        {
+          color: #00ff6e;
+          text-decoration: none;
+          text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+          font-size: 2em;
+          font-family: sans-serif;
+          font-weight: bold;
+          text-align: center;
+          margin-left: 7em;
+          margin-right: 7em;
+        }
+
+        .headings
+        {
+            color: #00ff6e;
+            text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+            font-family: sans-serif;
+        }
+
+        input[type=submit] {
+          background-color: #00ff6e;
+          color: black;
+          margin: 5px;
+          font-size: 1.2em;
+          padding: 0.5em;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="bg" id="pagebg">
+        <img src="'https://i.imgur.com/r16aEw5.jpg'">
+    </div>
+    <center>
+    <a href="/"  class="subText">
+        Home
+    </a>
+
+    <a href="/profile"  class="subText">
+        {{username}}
+    </a>
+    </center>
+
+    <br>
+        <center>
+        <form method="post" action="/profile" enctype="multipart/form-data" onsubmit="disableOpinion">
+        <input type="submit" id="submit-removal" name="submit-removal" value="Remove Selected">
+        <table>
+        <tr>
+        <th style="width:50%">
+        <h1 class="headings">
+            Liked Movies
+        </h1>
+        </th>
+        <th style="width:50%">
+        <h1 class="headings">
+            Disliked Movies
+        </h1>
+        </th>
+        </tr>
+        <tr>
+        <td style="vertical-align:top; text-align: center;">
+        <table>
+            <tr>
+                {%for i in range(0, lenliked)%}
+                        <td class="movie-wrap">
+                            <table>
+                                <tr>
+                                    <td class="hover-reveal">
+                                        <textarea class="img-desc" readonly>{{likedlist[i]['Description'][0]}}</textarea>
+                                        <img src="{{likedlist[i]['Thumbnail'][0]}}" width="206px" height="305px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="title-center">
+                                        {{likedlist[i]['Title'][0]}}
+                                        <br>
+                                        <label>Select </label> <input type="checkbox" id="removeliked" name="{{likedlist[i]['Title'][0]}}\n{{likedlist[i]['Description'][0]}}" value="1">
+                                    </th>
+                                </tr>
+                            </table>
+                        </td>
+                {%endfor%}
+            </tr>
+        </table>
+        </td>
+        <td style="vertical-align:top; text-align: center;">
+        <table>
+            <tr>
+                {%for i in range(0, lendisliked)%}
+                        <td class="movie-wrap">
+                            <table>
+                                <tr>
+                                    <td class="hover-reveal">
+                                        <textarea class="img-desc" readonly>{{dislikedlist[i]['Description'][0]}}</textarea>
+                                        <img src="{{dislikedlist[i]['Thumbnail'][0]}}" width="206px" height="305px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="title-center">
+                                        {{dislikedlist[i]['Title'][0]}}
+                                        <br>
+                                        <label>Select </label> <input type="checkbox" id="removedisliked" name="{{dislikedlist[i]['Title'][0]}}\n{{dislikedlist[i]['Description'][0]}}" value="1">
+                                    </th>
+                                </tr>
+                            </table>
+                        </td>
+                {%endfor%}
+            </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        </form>
+        </center>
+
+</body>
+
+<script>
+function disableQuery() {
+  document.getElementById('query').disabled = false;
+  document.getElementById('submit-query').disabled = true;
+}
+
+function disableQuery() {
+  document.getElementById('submit-likes').disabled = true;
+}
+
+window.addEventListener('load', function() {
+    const pageHeight = document.documentElement.scrollHeight;
+    console.log('Page height:', pageHeight, 'pixels');
+    const element = document.querySelector('.bg');
+    element.style.height = pageHeight + 'px';
+    var targetElement = document.getElementById('pagebg');
+    targetElement.classList.add('bg');
+});
+
+</script>
+
+
+</html>
