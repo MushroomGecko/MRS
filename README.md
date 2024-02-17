@@ -5,3 +5,4 @@ To start MRS, just run `python Webserver.py` and MRS does the rest! MRS is hoste
 
 The default user is "user1" and the password is "12345".
 
+[MRS A Movie Recommendation System.pdf](https://github.com/MushroomGecko/MRS/files/14320384/MRS.A.Movie.Recommendation.System.pdf)
