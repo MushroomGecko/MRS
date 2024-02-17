@@ -7,3 +7,14 @@ The default user is "user1" and the password is "12345".
 
 An IEEE-style paper explaining MRS in depth: [MRS A Movie Recommendation System.pdf](https://github.com/MushroomGecko/MRS/files/14320384/MRS.A.Movie.Recommendation.System.pdf)
  
+![home](https://github.com/MushroomGecko/MRS/assets/70172740/f4268c5e-43aa-4e91-b696-e456b0789710)
+Home Page
+
+![search](https://github.com/MushroomGecko/MRS/assets/70172740/85d5162d-383e-46c3-a44d-183394952c0d)
+Searching for "Batman"
+
+![user](https://github.com/MushroomGecko/MRS/assets/70172740/2de20061-8c78-42ee-ad09-587bd960ee55)
+User profile
+
+![recommendation](https://github.com/MushroomGecko/MRS/assets/70172740/a76de468-e459-4cea-a766-066c1d803e47)
+A movie recommendation
